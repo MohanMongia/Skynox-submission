@@ -70,45 +70,7 @@ hr{
 
 /* Start from here */
 
-@media(min-width:901px)
-{
-    .wrapper-1{
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
-    .images{
-        flex-basis: 40%;
-        margin-right: 50px;
-    }
-    .about-product{
-        flex-basis:40%;
-    }
-    .main-image img {
-        height: 470px;
-        width: 100%;
-    }
-    .small-image img{
-        width: 80px;
-        height: 80px;
-    }
-    .wrapper-2 {
-        display: flex;
-        width: inherit;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
-    .wrapper{
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    h4{
-        margin: 0px;
-    }
-    .fa-box-open, .fa-wallet, .fa-shuttle-van{
-        margin-right: 10px;
-    } 
-}
+
 
 
 
@@ -289,4 +251,69 @@ hr{
     .fa-box-open, .fa-wallet, .fa-shuttle-van{
         margin-right: 10px;
     }    
+}
+
+@media(min-width:901px)
+{
+    .wrapper-1{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+    }
+    .images{
+        flex-basis: 50%;
+        margin-right: 50px;
+    }
+    .about-product{
+        flex-basis:50%;
+    }
+    .main-image img {
+        height: 470px;
+        width: 100%;
+    }
+    .small-image img{
+        width: 80px;
+        height: 80px;
+    }
+    .wrapper-2 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+    .wrapper-3{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .about{
+        flex-basis: 20%;
+    }
+    .secure,.delivery{
+        margin-right: 110px;
+    }
+    .wrapper{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    h4{
+        margin: 0px;
+    }
+    .fa-box-open, .fa-wallet, .fa-shuttle-van{
+        margin-right: 10px;
+    } 
+}
+
+@media (min-width:901px) and (max-width:1070px){
+    .wrapper-1,.wrapper-3{
+        width: 90%;
+    }
+    .about{
+        flex-basis: 30%;
+    }
+
 }
