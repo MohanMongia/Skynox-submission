@@ -1,24 +1,52 @@
+html,body{
+    margin: 0px;
+    padding:0px;
+}
+/* .wrapper,.wrapper-1,.wrapper-2,.wrapper-3{
+    border: 1px solid red;
+} */
 .main {
-    margin-top: 25px;
+    padding-top: 25px;
+    background-color: rgb(255, 252, 252);
+}
+.wrapper-3{
+    background-color: white;
 }
 hr{
     display: none;
     border: 1px solid black;
 }
 
+.heading{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 23px;
+    font-weight:bolder;
+}
+h1{
+    padding: 0px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 .product, .seller{
     margin-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
+    font-size: 15px;
 }
 
 .product-description {
-    width: inherit;
-    margin-bottom: 30px;
-    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+    width: 80%;
 }
 
 .review, .rating{
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
 }
 
 .fa-star , .rating span {
@@ -28,17 +56,23 @@ hr{
 
 .submit-review{
     border-bottom: 1px solid black;
+    font-size: 13px;
     margin: 0px;
     padding-bottom: 2px;
 }
 
 .price{
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+
 }
 
 .dispatch{
     margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
 }
 
 .cart {
@@ -47,9 +81,11 @@ hr{
     border: 1px solid black;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 .wishlist {
@@ -58,9 +94,28 @@ hr{
     border: 1px solid black;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 } 
+.description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+h4{
+    font-weight:500;
+    font-size: 20px;
+}
+
+.fa-box-open, .fa-wallet, .fa-shuttle-van{
+    font-size: 20px;
+}
+.fa-clock{
+    padding-right: 5px;
+}
 
 @media (max-width:600px){
     .wrapper-2 {
@@ -165,7 +220,7 @@ hr{
         flex-basis:50%;
     }
     .main-image img {
-        height: 470px;
+        height: 400px;
         width: 100%;
     }
     .small-image img{
@@ -183,7 +238,7 @@ hr{
         flex-wrap: nowrap;
         width: 80%;
         margin: auto;
-        margin-top: 50px;
+        padding-top: 50px;
     }
     .about{
         flex-basis: 20%;
