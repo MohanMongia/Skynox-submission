@@ -1,0 +1,186 @@
+.main {
+    margin-top: 25px;
+}
+
+.wrapper{
+    border: 1px solid red;
+}
+@media (min-width:960px)
+{
+    .wrapper-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .images{
+        flex-basis: 30%;
+        margin-right: 60px;
+    }
+    .about-product{
+        flex-basis: 30%;
+    }
+    .wrapper-3{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+
+.main-image img {
+    height: 400px;
+    width: 400px;
+}
+.main-image{
+    padding-bottom: 10px;
+}
+
+.wrapper-2 {
+    display: flex;
+    width: inherit;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.small-image img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid red;
+}
+
+
+.product, .seller{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.product-description {
+    width: inherit;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.review, .rating{
+    margin-bottom: 15px;
+}
+
+.fa-star , .rating span {
+    color: rgb(52, 247, 172);
+    font-weight: 700;
+}
+
+.submit-review{
+    border-bottom: 1px solid black;
+    margin: 0px;
+    padding-bottom: 2px;
+}
+
+.price{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dispatch{
+    margin-bottom: 10px;
+}
+
+.cart {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+}
+
+.wishlist {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* .images{
+    width: 525px;
+    margin-right: 75px;
+}
+@media (max-width:1142px)
+{
+    .images{
+        margin-right: 0px;
+    }
+}
+@media (max-width:1142px) and (min-width: 1065px)
+{
+    .images{
+        margin-right: 50px;
+    }
+    .about-product{
+        margin-right: 50px;
+    }
+}
+
+
+
+
+.fa-clock {
+    background-color: white;
+    color: black;
+    margin-right: 10px;
+    vertical-align:middle
+}
+
+
+
+
+
+
+
+.about-product{
+    height: 100%;
+}
+
+
+.wrapper .small-image {
+    margin-right: 5px;
+    float: left;
+}
+
+    
+    .with-wrap{
+        flex-wrap: wrap;
+    }
+    
+    .about{
+        flex-basis: 20%;
+        /* margin-right: 150px; */
+        /* padding: 50px; */
+    /* }
+    .fa-box-open, .fa-wallet, .fa-shuttle-van{
+        margin-top: 22px;
+        margin-right: 10px;
+    }  */
+    /* .section {
+        float: left;
+    } */
+    /* .description {
+        text-align: justify;
+    }
+
+    
+    .tweak{
+        /* flex-wrap: wrap; */
+        /* margin-top: 10px;
+        width: 1125px;
+        justify-content: space-between; */
+    } */
+    
+    /* .return{
+        margin-right: 0px;
+    } */
