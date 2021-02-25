@@ -24,6 +24,7 @@ h1{
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 .product, .seller{
     margin-bottom: 5px;
     font-family: 'Open Sans', sans-serif;
@@ -98,13 +99,13 @@ h1{
 } 
 .description{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 20px;
 }
 
 h4{
     font-weight:500;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .fa-box-open, .fa-wallet, .fa-shuttle-van{
@@ -114,6 +115,15 @@ h4{
     padding-right: 5px;
 }
 
+@media (max-width:423px)
+{
+    .cart,.wishlist{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 200px;
+        margin-top: 10px;
+    }
+}
 @media (max-width:600px){
     .wrapper-2 {
         display: flex;
