@@ -272,7 +272,7 @@ h4{
     } 
 }
 
-@media (min-width:901px) and (max-width:1080px){
+@media (min-width:901px) and (max-width:1081px){
     .wrapper-1,.wrapper-3{
         width: 90%;
     }
