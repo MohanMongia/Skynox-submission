@@ -1,7 +1,4 @@
-html,body{
-    margin: 0px;
-    padding:0px;
-}
+
 /* .wrapper,.wrapper-1,.wrapper-2,.wrapper-3{
     border: 1px solid red;
 } */
@@ -124,6 +121,9 @@ h4{
         justify-content: space-between;
         flex-wrap: nowrap;
     }
+    .heading{
+        margin-top: 50px;
+    }
     .small-image{
         flex-basis: 19%;
     }
@@ -205,6 +205,10 @@ h4{
 
 @media(min-width:901px)
 {
+    html,body{
+        margin: 0px;
+        padding:0px;
+    }
     .wrapper-1{
         display: flex;
         flex-wrap: nowrap;
@@ -258,9 +262,13 @@ h4{
     } 
 }
 
-@media (min-width:901px) and (max-width:1070px){
+@media (min-width:901px) and (max-width:1080px){
     .wrapper-1,.wrapper-3{
         width: 90%;
+    }
+    .cart,.wishlist{
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .about{
         flex-basis: 30%;
