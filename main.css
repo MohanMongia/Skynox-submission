@@ -1,9 +1,6 @@
 .main {
     margin-top: 25px;
 }
-.wrapper,.wrapper-1,.wrapper-2,.wrapper-3{
-    /* border: 1px solid red; */
-}
 hr{
     display: none;
     border: 1px solid black;
@@ -65,129 +62,27 @@ hr{
     padding-right: 25px;
 } 
 
-
-
-
-/* Start from here */
-
-
-
-
-
-
-
-/* .wrapper-2 {
-    display: flex;
-    width: inherit;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-}
-*/
-
-
-/* .images{
-    width: 525px;
-    margin-right: 75px;
-}
-@media (max-width:1142px)
-{
-    .images{
-        margin-right: 0px;
-    }
-}
-@media (max-width:1142px) and (min-width: 1065px)
-{
-    .images{
-        margin-right: 50px;
-    }
-    .about-product{
-        margin-right: 50px;
-    }
-}
-
-
-
-
-.fa-clock {
-    background-color: white;
-    color: black;
-    margin-right: 10px;
-    vertical-align:middle
-}
-
-
-
-
-
-
-
-
-
-.wrapper .small-image {
-    margin-right: 5px;
-    float: left;
-}
-
-    
-    .with-wrap{
-        flex-wrap: wrap;
-    }
-    
-    .about{
-        flex-basis: 20%;
-        /* margin-right: 150px; */
-        /* padding: 50px; */
-    /* }
-     */
-    /* .section {
-        float: left;
-    } */
-    /* .description {
-        text-align: justify;
-    }
-
-    
-    .tweak{
-        /* flex-wrap: wrap; */
-        /* margin-top: 10px;
-        width: 1125px;
-        justify-content: space-between; }*/ 
-    
-    /* .return{
-        margin-right: 0px;
-    } */
-
-
-
-
-
-
-
-
-
-
-/* complete for mobile devices*/
-
-
-
 @media (max-width:600px){
-    .main-image img {
-        height: 470px;
-        width: 100%;
-    }
-    .small-image img{
-        width: 80px;
-        height: 80px;
-    }
-    hr{
-        margin-top: 30px;
-        display: block;
-    }
     .wrapper-2 {
         display: flex;
         width: inherit;
         justify-content: space-between;
         flex-wrap: nowrap;
+    }
+    .small-image{
+        flex-basis: 19%;
+    }
+    .main-image img {
+        height: 470px;
+        width: 100%;
+    }
+    .small-image img{
+        width: 100%;
+        height: 100px;
+    }
+    hr{
+        margin-top: 30px;
+        display: block;
     }
     .wrapper{
         display: flex;
@@ -205,7 +100,7 @@ hr{
 }
 
 
-@media(min-width:577px) and (max-width:900px)
+@media(min-width:600px) and (max-width:900px)
 {
     .main-image{
         text-align: center;
