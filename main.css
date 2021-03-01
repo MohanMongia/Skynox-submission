@@ -216,7 +216,7 @@ h4{
         width: 100%;
     }
     .main{
-        height: 70%;
+        height: fit-content;
     }
     .heading{
         margin-top: 40px;
@@ -258,6 +258,7 @@ h4{
         width: 58%;
         min-width: 930px;
         margin: auto;
+        margin-top: 70px;
         padding-top: 50px;
     }
     .product-description {
