@@ -28,13 +28,13 @@ h1{
 .product, .seller{
     margin-bottom: 5px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight:bolder;
     font-size: 15px;
 }
 
 .product-description {
     margin-bottom: 20px;
-    margin-top: 15px;
+    margin-top: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
     line-height: 20px;
@@ -60,17 +60,17 @@ h1{
 }
 
 .price{
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
 
 }
 
 .dispatch{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .cart {
@@ -79,9 +79,10 @@ h1{
     border: 1px solid black;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-right: 10px;
+    width: 170px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
@@ -92,8 +93,10 @@ h1{
     border: 1px solid black;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 10px;
+    width: 170px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 } 
@@ -115,16 +118,7 @@ h4{
     padding-right: 5px;
 }
 
-@media (max-width:423px)
-{
-    .cart,.wishlist{
-        padding-left: 20px;
-        padding-right: 20px;
-        width: 200px;
-        margin-top: 10px;
-    }
-}
-@media (max-width:600px){
+@media (max-width:576px){
     .wrapper-2 {
         display: flex;
         width: inherit;
@@ -138,12 +132,12 @@ h4{
         flex-basis: 19%;
     }
     .main-image img {
-        height: 470px;
+        height: 400px;
         width: 100%;
     }
     .small-image img{
         width: 100%;
-        height: 100px;
+        height: 80px;
     }
     hr{
         margin-top: 30px;
@@ -165,13 +159,13 @@ h4{
 }
 
 
-@media(min-width:600px) and (max-width:900px)
+@media(min-width:576px) and (max-width:992px)
 {
     .main-image{
         text-align: center;
     }
     .main-image img {
-        height: 470px;
+        height: 600px;
         width: 80%;
     }
     .small-image img{
@@ -213,28 +207,39 @@ h4{
     }    
 }
 
-@media(min-width:901px)
+@media(min-width:993px)
 {
     html,body{
         margin: 0px;
         padding:0px;
+        height: 100%;
+        width: 100%;
+    }
+    .main{
+        height: 70%;
+    }
+    .heading{
+        margin-top: 40px;
     }
     .wrapper-1{
         display: flex;
         flex-wrap: nowrap;
         justify-content: center;
-        width: 80%;
+        width: 70%;
+        min-width: 950px;
         margin: auto;
+        margin-top: 30px;
     }
     .images{
-        flex-basis: 50%;
+        flex-basis: 40%;
+        min-width: 500px;
         margin-right: 50px;
     }
     .about-product{
-        flex-basis:50%;
+        flex-basis:40%;
     }
     .main-image img {
-        height: 400px;
+        height: 500px;
         width: 100%;
     }
     .small-image img{
@@ -250,15 +255,29 @@ h4{
     .wrapper-3{
         display: flex;
         flex-wrap: nowrap;
-        width: 80%;
+        width: 58%;
+        min-width: 930px;
         margin: auto;
         padding-top: 50px;
+    }
+    .product-description {
+        margin-bottom: 20px;
+        margin-top: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 20px;
+        max-width: 405px;
+        width: 80%;
     }
     .about{
         flex-basis: 20%;
     }
     .secure,.delivery{
         margin-right: 110px;
+    }
+    .delivery{
+        min-width: 200px;
     }
     .wrapper{
         display: flex;
@@ -270,18 +289,4 @@ h4{
     .fa-box-open, .fa-wallet, .fa-shuttle-van{
         margin-right: 10px;
     } 
-}
-
-@media (min-width:901px) and (max-width:1081px){
-    .wrapper-1,.wrapper-3{
-        width: 90%;
-    }
-    .cart,.wishlist{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .about{
-        flex-basis: 30%;
-    }
-
 }
